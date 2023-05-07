@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+body {
+  background-color: #231823;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 94vh;
+}
+
+.all {
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.447);
+}
+.all .container {
+  /* border: 1px #d0d3c5 solid; */
+  padding: 40px;
+  border-radius: 20px;
+}
+.all .container .genediv {
+  text-align: center;
+}
+.all .container .genediv h2 {
+  margin-bottom: 15px;
+  font-family: barlow;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.all .container .genediv form input {
+  border-radius: 10px;
+  padding: 8px 15px;
+  border: 1px #d5d5d5 solid;
+  transition: 0.2s;
+  outline: none;
+}
+.all .container .genediv form input:focus {
+  box-shadow: 0 3px 2px black;
+}
+.all .container .genediv button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.all .container .genediv button:active {
+  background-color: black;
+}
+.all #dialogbox {
+  text-align: center;
+}
+.all #dialogbox #dialogboxhead {
+  display: inline;
+}
+.all #dialogbox #dialogboxbody {
+  display: inline;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+.all #dialogbox #dialogboxfoot {
+  margin-top: 20px;
+}
